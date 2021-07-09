@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.header{
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    display: flex;
+}
+.logo{
+    width: 20%;
+   
+}
+.navbar{
+    width: 80%; 
+}
+.navbar a{
+    font-weight: bold ;
+}
+.logo img{
+    max-width: 120px;
+}
+ul{
+    margin-right: 50px;
+    max-width: 400px;
+    float: right;
+}
+li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 768px) {
+.navbar ul {
+    margin-right: 0px;
+}
+.navbar ul li{
+    margin-right: 0px;
+}
+}
+.navbar a:hover{
+    color: cadetblue;
+}
+
+.wrap-first{
+    background-color: #f6f6f6;
+
+}
+.big-text-warp{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.text-wrap{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 5px;
+}
+.img-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.footer{
+    display: flex;
+flex-wrap: wrap;
+    background-color: #141414;
+    color: white;
+    padding: 50px 60px;
+}
+.footer-column1 {
+    width: 40%;
+    
+}
+.footer-column2{
+    width: 28%;
+}
+.footer-column3, .footer-column4{
+    width: 10%;
+}
+
+.footer-column5{
+    width: 12%;
+}
+
+@media (max-width: 768px) {
+    .footer-column1{
+        width: 38%;
+        padding: 20px;
+    }
+    .footer-column2{
+        width: 38%;
+        padding: 20px;
+    }
+    .footer-column3{
+        width: 30%;
+    }
+    .footer-column4{
+        width: 30%;
+    }
+    .footer-column5{
+        width: 35%;
+    }
+    .footer{
+        padding: 35px 0px;
+    }
+    .footer ul{
+        margin-right: 0px;
+    }
+  
+}
+.column ul li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.column p{
+    margin-top: 10px;
+    font-size: 18px; 
+}
+.bg{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .75);
+    opacity: 0;
+    transition: opacity .3s;
+}
+.img:hover .bg {
+    opacity: 1;
+}
+.oko{
+    max-width: 150px ;
+    width: 100% ;
+   margin:0 auto ;
+   position: absolute;
+   top: 25%;
+   left: 33%;
+}
+.contact-wrap{
+    
+    background-color: #f6f6f6;
+}
+.contactform{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.contact-left{
+    width: 40%;
+   
+}
+.contact-right{
+    width: 60%;
+}
+.big-text-contact{
+    font-size: 35px;
+    font-weight: bold;
+}
+.small-text-contact{
+    max-width: 410px;
+}
+label{
+    font-weight: bold;
+}
+iframe{
+    margin: 0 auto;
+}
+.map{
+    background-color: #f6f6f6;
+    padding: 40px 0px;
+    -webkit-filter: grayscale(99%);
+}
+
+.map iframe{
+    width: 100%;
+}
+.mapa{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.contact-right{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+form input{
+    border:0px;
+    padding: 10px;
+}
+form input::placeholder{
+    padding: 10px;
+}
+
+#contactsubmit{
+    max-width: 150px;
+    border: 0px;
+    margin-top: 20px;
+    color: white;
+    background-color: aqua;
+    padding: 15px 20px;
+}
+.contact-right input{
+    margin-top: 20px;
+    height:25px;
+   display: inline-block;
+}
+form{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+#fname{
+    margin-right: 3px;
+}
+#fname, #email{
+  width: 47%;
+ 
+}
+#title{
+  width: 100%;
+}
+#coment{
+  width: 100%;
+  height: 150px;
+}
+
+.grey-wrap{
+    background-image: url(/assets/img/kobieta.jpg);
+ background-size: cover;
+  
+}
+.opacitybox{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    
+}
+.grey-bigtext{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+}
+.grey-smalltext{
+    color: white;
+    font-size: 18px;
+}
+.grey-box{
+    text-align: center;
+    max-width: 600px;
+    margin:0 auto;
+    padding: 100px 0px;
+}
+.blue-wrap{
+    background-color: #10c9c3;
+   
+}
+.bluebox{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bluecolumn{
+    width: 25%;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left img{
+    max-width: 50px;
+    width: 100%;
+    padding: 15px;
+}
+.bluecolumn .right{
+    color: white;
+}
+.bluecolumn .right .number{
+    font-weight: bold;
+}
+.aboutme-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+ 
+}
+.aboutme-img{width: 50%;
+
+}
+ 
+.img-about img{
+    width: 100%;
+}
+.aboutme-text{
+    width: 50%;
+    color: black;
+}
+.aboutme-text p{
+    padding: 10px;
+}
+.abouttext{
+    max-width: 400px;
+}
+.aboutme-text p:first-child{
+font-size: 34px;
+font-weight: bold;
+}
+.signature{
+    max-width:150px;
+}
+.needproject-box{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.needproject-bigtext{
+    font-size: 34px;
+    font-weight: bold;
+
+}
+.button{    
+    color:white;
+    background-color: #0ec9c7;
+    padding: 15px 30px;
+    border:0px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.project div{
+    max-width: 1920px;
+    width: 400%;
+    height: 400px;
+
+}
+.wrap-slider{
+  background-color: #f8f8f8;
+}
+.slides{
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slide{
+  display: flex !important;
+  flex-wrap: wrap !important;
+
+}
+.big-slider-text{
+  font-size: 43px;
+  font-weight: bold;
+}
+.slide-text, .slide-img{
+  width: 50%;
+}
+.slick-next, .slick-prev{
+  position: relative;
+ 
+
+}
+.clents span{
+  font-weight: bold;
+}
+.slide-img img{
+  width: 100%;
+}
+
+.slick-next:before, .slick-prev:before{
+    color:black !important;
+}
+
+@media (max-width: 768px) {
+.aboutme-img{
+    width: 100%;
+}
+.aboutme-text{
+    width: 100%;
+}
+.signature{
+    margin: 0 auto;
+}
+.aboutme-text p:first-child{
+    text-align: center;
+}
+.contact-left{
+    width: 100%;
+}
+.contact-right{
+    width: 100%;
+}
+#fname, #email{
+    width: 42%;
+}
+.img{
+    width: 100%;
+}
+}
+.slick-next{
+    right: 0 !important;
+    display: none !important;
+}
+.slick-prev{
+    display: none !important;
+    left: 0 !important;
+}
+.landp{
+    display: flex;
+}
+.leftbreak ,.rightbreak{
+    width: 50%;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0px 30px;
+}
+.rightbreak{
+    text-align: right;
+}
